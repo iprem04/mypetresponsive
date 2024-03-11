@@ -45,6 +45,7 @@ nav ul li{
    margin-right: 0.5rem;
 } 
 /* responsive navbar */
+
 @media only screen and (max-width: 480px) {
     nav{
        flex-direction: column;
@@ -103,6 +104,12 @@ border-radius:10px 10px 0px 0px ;
 
 
 /* responsive mypet */
+@media only screen and (max-width: 768px) {
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
 @media only screen and (max-width: 768px) {
     .mypet-content{
         display: grid;
