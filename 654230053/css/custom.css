@@ -1,0 +1,25 @@
+.text-uppercase{
+    text-transform: uppercase;
+    color: blue;
+}
+.button{
+
+background-color: rgb(255, 0, 0);
+padding: 8px 24px;
+border-radius: 30px;
+margin: 20px 0px;
+text-align: center;
+display: inline-block;}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}       
+input{
+    margin-top: 4px;
+}
+.bg-mynavbar{
+background-color: pink;
+}
+.connor{
+    border-radius: 40px 40px;
+}

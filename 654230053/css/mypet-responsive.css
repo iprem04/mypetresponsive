@@ -1,0 +1,154 @@
+header{
+    display: flex;
+    background-color: black;
+    align-items: center;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+nav{
+    display: flex;
+    /* background-color: rgb(226, 93, 138); */
+    width: 85%;
+ margin: auto;
+    justify-content: space-between;
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    
+    
+}
+.text-h1{
+color: aliceblue;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav ul li{
+    margin-right: 1.85rem;
+   
+    
+}
+.logo{
+    display: flex;
+    align-items: center;
+   
+}
+.logo img{
+   
+   margin-right: 0.5rem;
+} 
+/* responsive navbar */
+
+
+@media only screen and (max-width: 480px) {
+    nav{
+       flex-direction: column;
+      align-items: center;
+    }
+    nav ul{
+        flex-direction: column;
+    text-align: center;
+}
+
+}
+
+
+
+/* mypet content */
+.mypet-content{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}
+.box{
+    box-shadow: 0px 0px 3px 3px rgb(228, 223, 223);
+/* background-color: #ffffff;    */
+margin: 30px 10px;
+
+border-radius: 10px;
+}
+.image{
+width: 100%;
+border-radius:10px 10px 0px 0px ;
+}
+
+.text-content{
+    padding: 15px;
+}
+/* social */
+.boxs{
+    
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  background-color: rgb(44, 40, 40);
+  
+  height: 250pX;
+  margin-top: 30px;
+  text-align: center;
+}
+.icon{
+    background-color: rgb(169, 255, 165);
+    border-radius: 100%;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+
+
+
+
+/* responsive mypet */
+@media only screen and (max-width: 768px) {
+    .boxs{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+@media only screen and (max-width: 480px) {
+    .mypet-content{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+
+
+/* hero section */
+.hero{
+    background-repeat: no-repeat;
+    background-size: cover;
+   background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/ee40320c-b6be-43a6-9fcd-d549d5bca2ae/dfiw3c0-19a60236-f6fa-4996-a5dc-eae721332d21.png/v1/fill/w_894,h_894,q_70,strp/polar_bear_emperor_by_animatio7_dfiw3c0-pre.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTAyNCIsInBhdGgiOiJcL2ZcL2VlNDAzMjBjLWI2YmUtNDNhNi05ZmNkLWQ1NDlkNWJjYTJhZVwvZGZpdzNjMC0xOWE2MDIzNi1mNmZhLTQ5OTYtYTVkYy1lYWU3MjEzMzJkMjEucG5nIiwid2lkdGgiOiI8PTEwMjQifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.MaQJxfTutrHbchN7_HZpWmuSuJQDmEEvhotWYp_6zHw');
+    
+   height: 500px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text-hero{
+    margin: 0;
+    color: aliceblue;
+  font-size: 60px;
+}
+
+
+/* footer */
+footer{
+    background-color: #000000;
+    color: aliceblue;
+    text-align: center;
+    padding: 0;
+}
+
